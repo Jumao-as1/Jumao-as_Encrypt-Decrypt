@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>File Encryption/Decryption</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="icon/encryption.png" type="image/png">
+  </head>
+  <body>
+    <div id="fileContainer">
+      <h1>File Encryption / Decryption</h1>
+      <input type="file" id="fileInput" />
+      <div class="buttonGroup">
+        <button onclick="encryptFile()">Encrypt</button>
+        <button onclick="decryptFile()">Decrypt</button>
+      </div>
+      <p id="status"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
